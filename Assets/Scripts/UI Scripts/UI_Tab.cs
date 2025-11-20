@@ -20,7 +20,7 @@ public class UI_Tab : MonoBehaviour
 
     [Header("Reference")]
     public Player_Tab PT;
-    public NewUI_InventoryManager UM;
+    public Inventory_Manager IM;
 
     void Start()
     {
@@ -68,8 +68,7 @@ public class UI_Tab : MonoBehaviour
         panel_inventory.SetActive(true);
         panel_equipment.SetActive(false);
         panel_contraptions.SetActive(false);
-
-        UM.ShowAllItems();
+        IM.RefreshInventory();
     }
 
     private void OpenEquipment()

@@ -10,11 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7937ac731efa4cb46a7dcbebb618cd86, type: 3}
-  m_Name: Recipe_Item3
+  m_Name: Recipe_Material4
   m_EditorClassIdentifier: 
-  craftedItem: {fileID: 11400000, guid: c8896f62683bd2a4b8af1c26c529ba51, type: 2}
-  materials:
-  - materialItem: {fileID: 0}
-    quantityRequired: 0
-  - materialItem: {fileID: 0}
-    quantityRequired: 0
+  craft_item: {fileID: 11400000, guid: d0dbb6e8a71fbfc4f84400133dd7a7d6, type: 2}
+  craft_materials:
+  - required_materials: {fileID: 11400000, guid: c086bade041aa98459002ffc59b1115e, type: 2}
+    required_quantity: 2
