@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 480279f6c5be1094b85046a445cba640, type: 3}
+  m_Name: Player_Inventory
+  m_EditorClassIdentifier: 
+  slots:
+  - item: {fileID: 11400000, guid: 5c2f94df19f42da43822cae4d23a25c4, type: 2}
+    quantity: 12
+    isDiscovered: 1
+  - item: {fileID: 11400000, guid: fdd622d23c7707045bac45fefd9b1781, type: 2}
+    quantity: 18
+    isDiscovered: 1
+  - item: {fileID: 11400000, guid: 3b9553e3f13f4014fb42f720b3c0a011, type: 2}
+    quantity: 9
+    isDiscovered: 1
+  - item: {fileID: 11400000, guid: a6d4b7b8030d4e84388e7710348653c9, type: 2}
+    quantity: 0
+    isDiscovered: 0
+  - item: {fileID: 11400000, guid: 24383ba19bca2d940a9a11ddeac57416, type: 2}
+    quantity: 0
+    isDiscovered: 0
+  - item: {fileID: 11400000, guid: cdd75282485fd98438cda8e13aa6a78b, type: 2}
+    quantity: 0
+    isDiscovered: 0
+  - item: {fileID: 11400000, guid: f2deef6e0a3974b48829905cf968c86e, type: 2}
+    quantity: 3
+    isDiscovered: 1
+  - item: {fileID: 11400000, guid: 5b87c4725db4b2e45bee0c2f9a083a8e, type: 2}
+    quantity: 6
+    isDiscovered: 1
+  - item: {fileID: 11400000, guid: aed8b7aab9d60554a9d657bdef6492be, type: 2}
+    quantity: 0
+    isDiscovered: 0
+  - item: {fileID: 11400000, guid: 37459368a240bf84e85290016ad72a24, type: 2}
+    quantity: 0
+    isDiscovered: 0
+  - item: {fileID: 11400000, guid: c8896f62683bd2a4b8af1c26c529ba51, type: 2}
+    quantity: 0
+    isDiscovered: 0
+  - item: {fileID: 11400000, guid: 4580ac08858bdf742abbaf5d0f6126d2, type: 2}
+    quantity: 0
+    isDiscovered: 0
