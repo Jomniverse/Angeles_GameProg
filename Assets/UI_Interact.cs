@@ -16,5 +16,4 @@ public class UI_Interact : MonoBehaviour
     {
         Destroy(interactE);
     }
-
 }

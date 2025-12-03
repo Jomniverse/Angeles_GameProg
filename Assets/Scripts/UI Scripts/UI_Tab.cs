@@ -21,6 +21,7 @@ public class UI_Tab : MonoBehaviour
     [Header("Reference")]
     public Player_Tab PT;
     public Inventory_Manager IM;
+    public Inventory_CategorySwitcher ICS;
 
     void Start()
     {
@@ -69,6 +70,7 @@ public class UI_Tab : MonoBehaviour
         panel_equipment.SetActive(false);
         panel_contraptions.SetActive(false);
         IM.RefreshInventory();
+        ICS.ShowAll();
     }
 
     private void OpenEquipment()

@@ -16,5 +16,6 @@ MonoBehaviour:
   item_description: sdgfghshhsdfhsdfhds
   item_quantity: 0
   item_icon: {fileID: 1040750136476133245, guid: 9dc923b1764cc7a40b26fd719056dc85, type: 3}
-  item_isDiscovered: 1
+  item_isDiscovered: 0
   item_category: 1
+  item_price: 100

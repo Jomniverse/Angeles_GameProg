@@ -24,6 +24,10 @@ public class Item_Create : ScriptableObject
 
     [Header("Category")]
     public Item_Category item_category;
+
+    [Header("Pricing")]
+    public int item_price;      
+ 
 }
 
 

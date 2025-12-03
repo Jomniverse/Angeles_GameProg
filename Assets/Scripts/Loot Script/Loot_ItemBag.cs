@@ -2,17 +2,17 @@ using UnityEngine;
 
 public class Loot_ItemBag : MonoBehaviour, Loot_Interface
 {
-    public Enemy_DropCollect EDP;
+    public Loot_DropTable LDT;
 
     private void Awake()
     {
-        EDP = GetComponent<Enemy_DropCollect>();
+        LDT = GetComponent<Loot_DropTable>();
     }
 
     public void Collect()
     {
-        if (EDP != null)
-            EDP.DropItemsToPlayer();
+        if (LDT != null)
+            LDT.DropItemsToPlayer();
 
         Destroy(gameObject);
     }

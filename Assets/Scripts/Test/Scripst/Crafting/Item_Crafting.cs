@@ -7,12 +7,14 @@ public class Item_Crafting : ScriptableObject
     public Item_Create craft_item;
 
     [Header("Required Materials")]
-    public MaterialRequirement[] craft_materials;
-}
+    public Item_Create required_material1;
+    public int required_quantity1;
+    [Space(20)]
 
-[System.Serializable]
-public class MaterialRequirement
-{
-    public Item_Create required_materials; 
-    public int required_quantity;   
+    public Item_Create required_material2;
+    public int required_quantity2;
+    [Space(20)]
+
+    public Item_Create required_material3;
+    public int required_quantity3;
 }

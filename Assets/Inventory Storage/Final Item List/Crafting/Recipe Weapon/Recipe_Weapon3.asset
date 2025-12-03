@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7937ac731efa4cb46a7dcbebb618cd86, type: 3}
+  m_Name: Recipe_Weapon3
+  m_EditorClassIdentifier: 
+  craft_item: {fileID: 11400000, guid: 8a4e77bb9cdc6d64a814056db4710a73, type: 2}
+  required_material1: {fileID: 11400000, guid: 7bbc83fd8a5a47b4dbb116fd2bf49092, type: 2}
+  required_quantity1: 1
+  required_material2: {fileID: 11400000, guid: aa86948beb90b134481c9f44e85a992e, type: 2}
+  required_quantity2: 1
+  required_material3: {fileID: 11400000, guid: 02f1dcd689030f744b72d0d044610ac8, type: 2}
+  required_quantity3: 0

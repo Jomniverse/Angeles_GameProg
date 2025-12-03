@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Gathering_Interaction : MonoBehaviour
 {
-    public Enemy_DropCollect EDP;
+    public Loot_DropTable LDT;
     [SerializeField] private int max_tries;
     [SerializeField] private int tries;
     private bool playerInside = false;
@@ -38,7 +38,7 @@ public class Gathering_Interaction : MonoBehaviour
     {
         if (playerInside && Input.GetKeyDown(KeyCode.E) && max_tries != tries)
         {
-            EDP.DropItemsToPlayer();
+            LDT.DropItemsToPlayer();
             tries++;
         }
         else if (playerInside && Input.GetKeyDown(KeyCode.E) && max_tries == tries)

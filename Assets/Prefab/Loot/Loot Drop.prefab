@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1675386367786227046}
   - component: {fileID: 3228424046519082826}
   - component: {fileID: -4123584930622111610}
-  - component: {fileID: 4956692040959740543}
+  - component: {fileID: -7558802529205282641}
   m_Layer: 0
   m_Name: Loot Drop
   m_TagString: Untagged
@@ -138,8 +138,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6eb7c21da1f4ae248b4c125069894c4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EDP: {fileID: 4956692040959740543}
---- !u!114 &4956692040959740543
+  LDT: {fileID: -7558802529205282641}
+--- !u!114 &-7558802529205282641
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,17 +148,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5642574400600343788}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a6d7c1c2f242ea4f8ba6a5a679b7da7, type: 3}
+  m_Script: {fileID: 11500000, guid: ba9e9a60f5b34bc48aaae98d4be555c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dropTable:
-  - itemReference: {fileID: 11400000, guid: 5b87c4725db4b2e45bee0c2f9a083a8e, type: 2}
+  - itemReference: {fileID: 11400000, guid: bd48f824bf3587a469b20321c3f2fefd, type: 2}
     dropChance: 100
     quantityAdded: 2
-  - itemReference: {fileID: 11400000, guid: 3b9553e3f13f4014fb42f720b3c0a011, type: 2}
+  - itemReference: {fileID: 11400000, guid: 830cb0d629ebb634fa59a77005f8ea52, type: 2}
     dropChance: 100
     quantityAdded: 3
-  - itemReference: {fileID: 11400000, guid: f2deef6e0a3974b48829905cf968c86e, type: 2}
-    dropChance: 100
-    quantityAdded: 1
-  playerInventory: {fileID: 11400000, guid: fbf19a9f59ca6644381abd1c85512a00, type: 2}
+  - itemReference: {fileID: 11400000, guid: c086bade041aa98459002ffc59b1115e, type: 2}
+    dropChance: 92.1
+    quantityAdded: 2
