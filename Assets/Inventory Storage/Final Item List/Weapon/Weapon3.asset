@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: Weapon3
   m_EditorClassIdentifier: 
   item_name: Weapon3
-  item_description: Weapon 3 sdgfghshhsdfhsdfhds
+  item_description: sdgfghshhsdfhsdfhds
   item_quantity: 0
   item_icon: {fileID: 1518363075290452430, guid: 995e106b01e68ff42af0c3c6826975c5, type: 3}
-  item_isDiscovered: 0
+  item_isDiscovered: 1
   item_category: 0
-  item_price: 75
