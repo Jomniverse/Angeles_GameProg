@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Enemy_Bat_0: -3232250881991471260
+      Enemy_Bat_1: 5936679901786189013
+      Enemy_Bat_2: -4459330139543563820
+      Enemy_Bat_3: 8683758424267062322
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
